@@ -6,7 +6,7 @@ from pymongo import MongoClient
 MONGO_HOST= 'mongodb://basedatos/twitterdb'  # assuming you have mongoDB installed locally
                                              # and a database called 'twitterdb'
 
-WORDS = ['#bigdata', '#AI', '#datascience', '#machinelearning', '#ml', '#iot']
+WORDS = ['#trump']
 
 CONSUMER_KEY = "2iYBlp5TjDd9drmIHXrXzOihR"
 CONSUMER_SECRET = "DqVsRLdcJfcjBuszvaC9OmoBK1LBZp9K9wOhw9uIHomLdSwUyE"
