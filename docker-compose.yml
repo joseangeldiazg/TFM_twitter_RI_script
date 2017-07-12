@@ -1,0 +1,14 @@
+version: '3'
+services:
+  basedatos:
+    container_name: basedatos
+    build:
+      context: basedatos
+      dockerfile: Dockerfile
+  recovertweets:
+    container_name: recovertweets
+    build:
+      context: recovertweets
+      dockerfile: Dockerfile
+    links:
+      - basedatos

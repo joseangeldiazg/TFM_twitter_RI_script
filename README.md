@@ -1,2 +1,3 @@
-# TFM_twitter_RI_script
-Repositorio para el sistema de recuperación de información basado en la API de Twitter. Con este script se obtendrán los tuits que serán analizados después usando reglas de asociación y Big Data. 
+# twitter-stream-mongodb
+
+Repositorio que contiene los scripts necesarios para desplegar una arquitectura basada en microservicios sobre contenedores Docker capaz de obtener Tweets sobre una temática en streaming y almacenarnos en una base de datos noSQL MongoDB que corre en otro contenedor.
